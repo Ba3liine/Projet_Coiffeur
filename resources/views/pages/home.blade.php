@@ -1,0 +1,9 @@
+@extends('layout.app')
+@section('content')
+    @include('partials.home.infoHome')
+    @include('partials.home.pricing')
+    @include('partials.home.hairStyle')
+    @include('partials.home.service')
+    @include('partials.home.testimonial')
+    @include('partials.home.blog')
+@endsection
